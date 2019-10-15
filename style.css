@@ -36,7 +36,10 @@ body {
     color: white;
     text-transform: uppercase;
     border-radius: 6px;
-    border: 1px solid;
+    /* border: 1px solid; */
+    cursor: pointer;
+    /* tolgo la personalizzazione del broweser sui bordi dei bottoni */
+    border-width: 0px;
 }
 
 /* contiene le navbar e il jumbo */
@@ -57,6 +60,7 @@ nav {
 nav a {
     color: white;
     text-decoration: none;
+    cursor: pointer;
 }
 
 .nav:after {
@@ -68,7 +72,6 @@ nav a {
 .nav_left {
     width: 60%;
     height: 82px;
-    background-color: green;
     float: left;
 }
 
@@ -80,8 +83,9 @@ nav a {
 .nav_logo img {}
 
 .nav_menu_left {
-    border: 1px solid yellow;
     display: inline-block;
+    /* allineo il testo rispetto all'immagine a sinistra */
+    vertical-align: text-bottom;
 }
 
 .nav_menu_left ul li {
@@ -91,7 +95,6 @@ nav a {
 
 .nav_menu_left ul li a:hover {
     color: orange;
-    cursor: pointer;
 }
 
 .nav_right {
@@ -101,13 +104,15 @@ nav a {
 }
 
 .nav_menu_right {
-    border: 1px solid yellow;
+    /* uso il margine superiore per allineare il menu di destra a quello di sinistra */
+    margin-top: 25px;
 }
 
 #login_btn {
     background: rgba(0, 0, 0, 0);
     padding: 8px 25px;
     margin: 0 10px 0 10px;
+    border: 1px solid #98c8f8;
 }
 
 #struttura_btn {
