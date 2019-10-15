@@ -121,7 +121,6 @@ nav a {
 
 .jumbo {
     height: 420px;
-    background-color: cyan;
 }
 
 .jumbo:after {
@@ -133,7 +132,6 @@ nav a {
 .jumbo_left {
     width: 50%;
     height: 420px;
-    background-color: gold;
     float: left;
 }
 
@@ -148,12 +146,16 @@ nav a {
     width: 100%;
 }
 
-.jumbo_text {
-    background-color: lightgreen;
+.jumbo_textAndButton {
+    color: white;
+    font-size: 140%;
+    position: relative;
+    top: calc((100% - 177px) / 2);
+    margin-left: 100px;
 }
 
-.jumbo_button {
-    background-color: lightyellow;
+.jumbo_textAndButton h1 {
+    margin-top: 0;
 }
 
 #jumbo_btn {
