@@ -30,21 +30,20 @@ body {
     height: 1500px;
 }
 
+/* bottone generico */
 .btn {
     font-size: 12px;
     font-weight: 700;
     color: white;
     text-transform: uppercase;
     border-radius: 6px;
-    /* border: 1px solid; */
     cursor: pointer;
-    /* tolgo la personalizzazione del broweser sui bordi dei bottoni */
+    /* azzero le impostazioni del browser sui bordi dei bottoni */
     border-width: 0px;
 }
 
 /* contiene le navbar e il jumbo */
 header {
-    /* height: nav + jumbo */
     height: 502px;
 }
 
@@ -71,7 +70,6 @@ nav a {
 
 .nav_left {
     width: 60%;
-    height: 82px;
     float: left;
 }
 
@@ -79,8 +77,6 @@ nav a {
     margin: 22px 20px 22px 100px;
     display: inline-block;
 }
-
-.nav_logo img {}
 
 .nav_menu_left {
     display: inline-block;
@@ -99,13 +95,12 @@ nav a {
 
 .nav_right {
     width: 40%;
-    height: 82px;
     float: right;
 }
 
 .nav_menu_right {
     /* uso il margine superiore per allineare il menu di destra a quello di sinistra */
-    margin-top: 25px;
+    margin: 25px 0 0 100px;
 }
 
 #login_btn {
@@ -119,31 +114,34 @@ nav a {
     padding: 8px 10px;
 }
 
-.jumbo {
-    height: 420px;
-}
-
 .jumbo:after {
     content: "";
     display: table;
     clear: both;
 }
 
+/* contiene il titolo e un bottone */
 .jumbo_left {
-    width: 50%;
     height: 420px;
+    width: 50%;
     float: left;
 }
 
+/* contiene l'immagine  */
 .jumbo_right {
     width: 50%;
     height: 420px;
-    background-color: lightblue;
     float: right;
+    position: relative;
+    /* taglio l'overflow dell'immagine sul lato dx del container */
+    overflow-x: hidden;
 }
 
 .jumbo_right img {
-    width: 100%;
+    width: 135%;
+    /* allineo l'immagine sul fondo del container */
+    position: absolute;
+    bottom: 0;
 }
 
 .jumbo_textAndButton {
