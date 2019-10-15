@@ -1,3 +1,6 @@
+/* --------------------------------------------- */
+/* ----------------- GENERALE-- ---------------- */
+/* --------------------------------------------- */
 * {
     box-sizing: border-box;
 }
@@ -42,6 +45,9 @@ body {
     border-width: 0px;
 }
 
+/* --------------------------------------------- */
+/* ------------------ HEADER ------------------- */
+/* --------------------------------------------- */
 /* contiene le navbar e il jumbo */
 header {
     height: 502px;
@@ -141,7 +147,7 @@ nav a {
     width: 135%;
     /* allineo l'immagine sul fondo del container */
     position: absolute;
-    bottom: 0;
+    bottom: 2px;
 }
 
 .jumbo_textAndButton {
@@ -158,4 +164,75 @@ nav a {
 
 #jumbo_btn {
     padding: 12px 14px;
+}
+
+/* --------------------------------------------- */
+/* -------- SEZIONI CONTENUTO PRINCIPALE ------- */
+/* --------------------------------------------- */
+#sect1 {
+    background-color: #f9f9f9;
+}
+
+#text1 {
+    color: #373a3c;
+    padding-top: 50px;
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 24px;
+    text-align: center;
+}
+
+#text2 {
+    color: gray;
+    font-size: 18px;
+    text-align: center;
+    padding-bottom: 50px;
+    margin-top: 0;
+}
+
+.sect2_col {
+    color: gray;
+    width: 25.33%;
+    float: left;
+    text-align: center;
+    margin: 0 6% 0 0%;
+    line-height: 1.6;
+}
+
+.sect2_col h3 {
+    color: #7fb802;
+    font-size: 24px;
+    line-height: 1.1;
+}
+
+#sect2 div:first-child {
+    margin-left: 6%;
+}
+
+#sect2:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#img_profile {
+    width: 135px;
+    height: 160px;
+    margin-bottom: 30px;
+}
+
+#img_computer {
+    width: 205px;
+    height: 143px;
+    margin-bottom: 47px;
+}
+
+#img_computer+h3 {
+    margin-bottom: 22px;
+}
+
+#img_documenti {
+    width: 151px;
+    height: 152px;
+    margin-bottom: 39px;
 }
