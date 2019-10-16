@@ -68,6 +68,10 @@ body {
 /* contiene le navbar e il jumbo */
 header {
     height: 502px;
+    background-image: url("images/oldman.png");
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
 
 /* contiene logo, navbar di sinistra, navbar di destra */
@@ -139,26 +143,24 @@ nav a {
 .jumbo_left {
     height: 420px;
     width: 50%;
-    float: left;
+    /* float: left; */
 }
 
 /* contiene l'immagine  */
-.jumbo_right {
+/* .jumbo_right {
     width: 50%;
     height: 420px;
     float: right;
     position: relative;
     /* taglio l'overflow dell'immagine sul lato dx del container */
-    overflow-x: hidden;
-}
-
-.jumbo_right img {
-    width: 135%;
-    /* allineo l'immagine sul fondo del container */
-    position: absolute;
-    bottom: 2px;
-}
-
+/* overflow-x: hidden; */
+/* } */
+/* .jumbo_right img { */
+/* width: 135%; */
+/* allineo l'immagine sul fondo del container */
+/* position: absolute; */
+/* bottom: 2px; */
+/* } */
 .jumbo_textAndButton {
     color: white;
     font-size: 140%;
