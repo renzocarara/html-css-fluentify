@@ -45,6 +45,18 @@ body {
     border-width: 0px;
 }
 
+/* bottone HELP fisso a fondo pagina */
+#help_btn {
+    font-size: 14px;
+    font-weight: 400;
+    padding: 10px 10px;
+    position: fixed;
+    right: 150px;
+    bottom: 0;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
 /* --------------------------------------------- */
 /* ------------------ HEADER ------------------- */
 /* --------------------------------------------- */
@@ -106,7 +118,7 @@ nav a {
 
 .nav_menu_right {
     /* uso il margine superiore per allineare il menu di destra a quello di sinistra */
-    margin: 25px 0 0 100px;
+    margin: 30px 0 0 100px;
 }
 
 #login_btn {
